@@ -14,20 +14,22 @@ Beck-Positionen. Self-contained, keine Build-Schritte.
 - `creatives/` – META-Ads-Creatives (4:5 Feed + 9:16 Story) je Position
 - `.nojekyll` – sorgt dafür, dass GitHub Pages die Dateien 1:1 ausliefert
 
-## Bilder (Hero-Fotos)
+## Bilder (Hero-Fotos & Logo)
 
-Die Fotos gehören in den Ordner **`bilder/`**. Der Hero lädt automatisch das passende
-Bild – fehlt es, bleibt der Beck-Farbverlauf stehen (kein kaputtes Bild). Erwartete
-Dateinamen:
+Die Fotos liegen im Ordner **`bilder/`**. Der Hero lädt automatisch das passende
+Bild – fehlt es, bleibt der Beck-Farbverlauf stehen (kein kaputtes Bild).
+Aktuelle Zuordnung (in `index.html`, Objekt `HERO_IMG`):
 
-- `bilder/hero.jpg` – allgemeines Hero-Bild (ohne Stellen-Parameter)
-- `bilder/maschineneinrichter.jpg` – bei `?stelle=maschineneinrichter`
-- `bilder/kurzdreher.jpg` – bei `?stelle=kurzdreher`
+- allgemein (ohne Stellen-Parameter) → `bilder/MS52.jpg` (Sechsspindler)
+- `?stelle=maschineneinrichter` → `bilder/Hohlschraube.jpg`
+- `?stelle=kurzdreher` → `bilder/Steuerboden.jpg`
 
-Querformat, mind. ~1600 px breit. Motiv rechts platzieren – links liegt die Textfläche.
+Zum Tauschen einfach die Dateinamen im Objekt `HERO_IMG` anpassen. Querformat,
+Motiv möglichst mittig/rechts – links liegt die Textfläche.
 
-Optional lässt sich ein echtes Beck-Logo hinterlegen (`bilder/beck-logo.svg` /
-`bilder/beck-logo-weiss.svg`), es ersetzt dann automatisch den Text-Schriftzug.
+Das offizielle Beck-Logo (`bilder/Logo2012.jpg.JPG`) wird oben in der Topbar
+angezeigt. Hero und Footer nutzen bewusst den weißen „BECK"-Schriftzug (klar
+lesbar auf dunklem Grund).
 
 ## Stellen-Deeplinks für die Ad
 
