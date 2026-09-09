@@ -29,5 +29,6 @@ oder die spätere Custom-Domain.)
 - Der Funnel filtert „weder Ausbildung noch Erfahrung“ automatisch aus –
   so kommen vorqualifizierte Leads in der Leadtable-Kachel an.
 
-Die Creatives sind aus einer Vorlage gerendert (`../tools`-frei, self-contained).
-Neue Varianten/Positionen lassen sich jederzeit im selben Stil ergänzen.
+Hintergrund sind echte Beck-Werksfotos (Maschineneinrichter: CNC-Bearbeitung /
+`Hohlschraube`, Kurzdreher: Sechsspindler / `MS52`) mit Beck-CI-Scrim und Text
+darüber. Neue Varianten/Positionen lassen sich jederzeit im selben Stil ergänzen.
