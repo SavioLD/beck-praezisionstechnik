@@ -39,18 +39,29 @@ startet beim Erfahrungs-Schritt:
 - `…/?stelle=maschineneinrichter`
 - `…/?stelle=kurzdreher`
 
-## Screening (Vorfilterung)
+## Vorfilterung (Screening)
 
-Wer bei der Erfahrungsfrage „weder Ausbildung noch Erfahrung“ wählt, fällt aus dem
-Prozess (kein Lead an Leadtable) und bekommt einen freundlichen Hinweis. So kommen
-qualifizierte Bewerbungen bei euch an. Screen-out und Erfolg gelten nur für den
-aktuellen Besuch – ein Seiten-Neuladen startet frisch.
+Vor den Kontaktdaten beantworten Bewerber **4 kurze Qualifizierungsfragen**:
+Qualifikation, Erfahrung an CNC-Dreh-/Mehrspindelautomaten, Schichtbereitschaft
+und Erreichbarkeit des Standorts. Jede Antwort bringt 0–3 Punkte (max. 12).
+
+Wer den Mindest-Score unterschreitet (Standard `SCREEN_MIN_SCORE = 3`, d. h.
+rundum die schlechtesten Antworten), wird **freundlich abgelehnt – es geht KEIN
+Lead an Leadtable**. So kommen nur vorqualifizierte Bewerbungen bei euch an.
+
+- Strenger/lockerer filtern: `SCREEN_MIN_SCORE` in `index.html` anpassen
+  (z. B. 5 oder 6 = strenger).
+- Die Punktzahl steht bei jedem Lead im Feld `eignung_punkte` (z. B. „8 / 12").
+- Screen-out und Erfolg gelten nur für den aktuellen Besuch – ein Seiten-Neuladen
+  startet frisch.
 
 ## Bewerbungen (Leadtable)
 
-Jede abgeschlossene Bewerbung wird per Webhook an Leadtable gesendet (Felder u. a.
-`stelle`, `erfahrung`, `vorname`, `nachname`, `telefon`, `email`, `lebenslauf`,
-`quelle`, `seite`). Der Webhook ist in `index.html` in der Variable `WEBHOOK_URL`
+Jede abgeschlossene Bewerbung wird per Webhook an Leadtable gesendet. Felder:
+`vorname`, `nachname` (Name wird nur **einmal** übergeben – kein zusätzliches
+kombiniertes `name`-Feld), `telefon`, `email`, `stelle`, `qualifikation`,
+`cnc_erfahrung`, `schicht`, `erreichbarkeit`, `eignung_punkte`, `lebenslauf`,
+`quelle`, `seite`. Der Webhook ist in `index.html` in der Variable `WEBHOOK_URL`
 hinterlegt und zeigt auf die Beck-Kachel in Leadtable.
 
 ## Lebenslauf-Upload (optional, standardmäßig aus)
