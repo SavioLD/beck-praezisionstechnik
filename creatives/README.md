@@ -1,34 +1,27 @@
 # META-Ads-Creatives · Beck Präzisionstechnik
 
-Vier Ad-Creatives im Beck-CI, optimiert auf qualifizierte Bewerber (klare
-Position, Voraussetzungen-Signale, harter CTA). Passend zum 3-Schritt-Funnel
-inkl. Vorfilterung.
+Vier Creatives im Beck-CI für die Stelle **Kurzdreher / Maschineneinrichter (m/w/d)**
+– zwei Motiv-Varianten (echte Werksfotos) in je zwei Formaten.
 
-| Datei | Position | Format | Platzierung |
+| Datei | Motiv | Format | Platzierung |
 |---|---|---|---|
-| `creative-maschineneinrichter-4x5.png` | Maschineneinrichter (m/w/d) | 1080×1350 (4:5) | Feed (FB/IG) |
-| `creative-maschineneinrichter-story.png` | Maschineneinrichter (m/w/d) | 1080×1920 (9:16) | Story / Reels |
-| `creative-kurzdreher-4x5.png` | Kurzdreher (m/w/d) | 1080×1350 (4:5) | Feed (FB/IG) |
-| `creative-kurzdreher-story.png` | Kurzdreher (m/w/d) | 1080×1920 (9:16) | Story / Reels |
+| `creative-ms52-4x5.png` | Sechsspindler (MS52) | 1080×1350 (4:5) | Feed (FB/IG) |
+| `creative-ms52-story.png` | Sechsspindler (MS52) | 1080×1920 (9:16) | Story / Reels |
+| `creative-hohlschraube-4x5.png` | CNC-Bearbeitung | 1080×1350 (4:5) | Feed (FB/IG) |
+| `creative-hohlschraube-story.png` | CNC-Bearbeitung | 1080×1920 (9:16) | Story / Reels |
 
-## Ziel-URL je Anzeige (Deeplink)
+## Ziel-URL
 
-Die Anzeige direkt auf die passende Stelle verlinken – die Seite wählt sie
-dann vor und startet beim Erfahrungs-Schritt (bessere Conversion):
-
-- Maschineneinrichter → `…/?stelle=maschineneinrichter`
-- Kurzdreher → `…/?stelle=kurzdreher`
-
-(`…` = die Live-URL, z. B. `https://<user>.github.io/beck-praezisionstechnik/`
-oder die spätere Custom-Domain.)
+https://saviold.github.io/beck-praezisionstechnik/?stelle=kurzdreher
+(`?stelle=maschineneinrichter` funktioniert ebenso – steuert nur das Hero-Foto.)
 
 ## Tipp für maximale Bewerberqualität
 
-- Je Position eine eigene Ad-Gruppe mit dem passenden Deeplink.
-- Feed- (4:5) und Story- (9:16) Creative je Position zusammen ausspielen.
-- Der Funnel filtert „weder Ausbildung noch Erfahrung“ automatisch aus –
-  so kommen vorqualifizierte Leads in der Leadtable-Kachel an.
+- Beide Motiv-Varianten als A/B testen; Feed (4:5) + Story (9:16) zusammen ausspielen.
+- Der Funnel filtert über 4 Qualifizierungsfragen vor – so kommen vorqualifizierte
+  Leads in der LeadTable-Kachel an.
+- Anzeigentexte: siehe `werbetexte.md`.
 
-Hintergrund sind echte Beck-Werksfotos (Maschineneinrichter: CNC-Bearbeitung /
-`Hohlschraube`, Kurzdreher: Sechsspindler / `MS52`) mit Beck-CI-Scrim und Text
-darüber. Neue Varianten/Positionen lassen sich jederzeit im selben Stil ergänzen.
+Hintergrund sind echte Beck-Werksfotos (Sechsspindler / `MS52` und CNC-Bearbeitung
+/ `Hohlschraube`) mit Beck-CI-Scrim und Text darüber. Neue Varianten lassen sich
+jederzeit im selben Stil ergänzen.

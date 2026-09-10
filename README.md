@@ -1,17 +1,17 @@
 # Beck Präzisionstechnik – Karriereseite
 
 Recruiting-Landingpage für die **Beck Präzisionstechnik GmbH & Co. KG** (Oberndorf am Neckar).
-Stellen: **Maschineneinrichter** und **Kurzdreher** (m/w/d).
+Stelle: **Kurzdreher / Maschineneinrichter (m/w/d)** (eine Position).
 
-Aufbau 1:1 an der ALWA-Karriereseite orientiert – im Beck-CI (Steel-Blue) und mit den
-Beck-Positionen. Self-contained, keine Build-Schritte.
+Aufbau 1:1 an der ALWA-Karriereseite orientiert – im Beck-CI (Steel-Blue).
+Self-contained, keine Build-Schritte.
 
 ## Inhalt
 
 - `index.html` – die komplette Seite (self-contained, kein Build nötig)
 - `supabase-bewerbungen.sql` – legt den Storage-Bucket für den optionalen Lebenslauf-Upload an
 - `bilder/` – Hero-Fotos (optional, siehe unten)
-- `creatives/` – META-Ads-Creatives (4:5 Feed + 9:16 Story) je Position
+- `creatives/` – META-Ads-Creatives (4:5 Feed + 9:16 Story), zwei Motiv-Varianten
 - `.nojekyll` – sorgt dafür, dass GitHub Pages die Dateien 1:1 ausliefert
 
 ## Bilder (Hero-Fotos & Logo)
@@ -31,13 +31,15 @@ Das offizielle Beck-Logo (`bilder/Logo2012.jpg.JPG`) wird oben in der Topbar
 angezeigt. Hero und Footer nutzen bewusst den weißen „BECK"-Schriftzug (klar
 lesbar auf dunklem Grund).
 
-## Stellen-Deeplinks für die Ad
+## Deeplinks für die Ad
 
-Die Anzeige kann direkt auf eine Stelle verlinken; die Seite wählt sie vor und
-startet beim Erfahrungs-Schritt:
+Es gibt **eine** Stelle (Kurzdreher / Maschineneinrichter). Der optionale
+`?stelle=`-Parameter beworbt nichts anderes – er steuert nur das passende
+**Hero-Foto** zum Anzeigenmotiv:
 
-- `…/?stelle=maschineneinrichter`
-- `…/?stelle=kurzdreher`
+- `…/?stelle=maschineneinrichter` → Hero-Foto Hohlschraube
+- `…/?stelle=kurzdreher` → Hero-Foto Steuerboden
+- ohne Parameter → Hero-Foto MS52 (Sechsspindler)
 
 ## Vorfilterung (Screening)
 
