@@ -3,9 +3,12 @@
 Profil- und Titelbild im gleichen Beck-CI wie Instagram/Website – aufeinander abgestimmt.
 
 ## Dateien
-- `facebook-profil.png` – Profilbild (1080×1080, Emblem-Variante; FB zeigt es rund,
-  überlappt links unten das Titelbild)
+- `facebook-profil.png` – Profilbild (1080×1080): **Original-Beck-Logo** (Robert-Beck-
+  Schild) auf Weiß mit dünnem Beck-blauem Ring; FB zeigt es rund, überlappt links
+  unten das Titelbild. Identisch mit `profil-logo.png`.
 - `facebook-cover.png` – Titelbild (**1702×630**, 2× der Desktop-Anzeige 851×315)
+- `profil-logo.png` – dasselbe Logo-Profilbild (auch für Instagram nutzbar)
+- `beck-emblem.png` – freigestelltes Logo-Emblem (transparent) für weitere Verwendung
 
 ## Formate & Sicherheitszonen (Titelbild)
 - Upload **1702×630** (Seitenverhältnis der Desktop-Darstellung; wird scharf angezeigt).

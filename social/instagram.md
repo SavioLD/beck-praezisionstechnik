@@ -2,12 +2,15 @@
 
 ## Profilbild
 
-Zwei Varianten (1080×1080, für den runden Zuschnitt optimiert):
+- **Empfohlen:** `../social/profil-logo.png` – Original-Beck-Logo (Robert-Beck-Schild)
+  auf Weiß mit dünnem Beck-blauem Ring (identisch zum Facebook-Profilbild, alles aus
+  einem Guss).
 
+Alternativen (stilisiert, Steel-Blue):
 - `instagram-profil-wortmarke.png` – „BECK" groß, klar auch in klein lesbar
-- `instagram-profil-emblem.png` – mit Ring-Emblem (angelehnt an das Logo), etwas markanter
+- `instagram-profil-emblem.png` – mit stilisiertem Ring-Emblem
 
-Beck-CI (Steel-Blue), zentriert, Motiv liegt sicher im Kreis.
+Alle 1080×1080, Motiv sicher im runden Zuschnitt.
 
 ## Bio (150 Zeichen)
 
