@@ -17,7 +17,7 @@ Foto: Beck-Sechsspindler (MS52). Alternativmotiv (Hohlschraube) auf Zuruf.
 
 ## Werbetexte (Du-Ansprache, Jobbahn-Stimme)
 
-**Ziel-URL:** https://saviold.github.io/beck-praezisionstechnik/?stelle=kurzdreher
+**Ziel-URL:** https://saviold.github.io/beck-praezisionstechnik/jobbahn/
 **Überschrift:** Kurzdreher / Maschineneinrichter (m/w/d)
 **Beschreibung:** Oberndorf a. N. · Unbefristet · Vollzeit · in 60 Sek. bewerben
 **Call-to-Action:** „Jetzt bewerben" (oder „Mehr dazu")
