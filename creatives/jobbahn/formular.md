@@ -10,7 +10,7 @@ Kampagne: Jobbahn → Arbeitgeber Beck Präzisionstechnik · zum direkten Reinko
 
 ## Titel / Intro (oben im Formular)
 **Bewirb dich als Kurzdreher / Maschineneinrichter (m/w/d)**
-Bei Beck Präzisionstechnik in Oberndorf a. N. – in unter 60 Sekunden. 5 kurze Fragen, ohne Anschreiben.
+⚙️ Sicherer, unbefristeter Job bei Beck in Oberndorf a. N. – seit 1952, faire Bezahlung, moderne Technik. 🚀 In unter 60 Sekunden, nur 4 kurze Fragen, ohne Anschreiben.
 
 ## KO-Fragen (Antwort jeweils: Ja / Nein)
 
@@ -24,9 +24,6 @@ Bei Beck Präzisionstechnik in Oberndorf a. N. – in unter 60 Sekunden. 5 kurze
    ◻ Ja   ◻ Nein
 
 4. Hast du eine gültige Arbeitserlaubnis für Deutschland?
-   ◻ Ja   ◻ Nein
-
-5. Verfügst du über Deutsch-Grundkenntnisse (für Zeichnungen & Arbeitssicherheit)?
    ◻ Ja   ◻ Nein
 
 ## Kontaktdaten
@@ -67,7 +64,6 @@ Stark – deine Bewerbung ist eingegangen! Wir melden uns persönlich bei dir. S
 | Schichtbereitschaft | Auswahl | Ja / Nein (KO) | ja |
 | Standort Oberndorf erreichbar | Auswahl | Ja / Nein (KO) | ja |
 | Arbeitserlaubnis DE | Auswahl | Ja / Nein (KO) | ja |
-| Deutsch-Grundkenntnisse | Auswahl | Ja / Nein (KO) | ja |
 | Vorname | Text | — | ja |
 | Nachname | Text | — | ja |
 | Telefon | Tel | — | ja |

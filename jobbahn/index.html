@@ -132,7 +132,7 @@ h1 .hl{color:var(--akz)}
 <section class="hero"><div class="shell">
   <span class="eyebrow"><span class="dot"></span>Oberndorf a. N. · Wir stellen ein</span>
   <h1>Kurzdreher <span class="hl">/</span> Maschineneinrichter <span style="font-weight:700;color:var(--txt-2);font-size:.6em">(m/w/d)</span></h1>
-  <p class="sub">Unbefristet, Vollzeit, moderner Maschinenpark – bei einem Familienbetrieb mit Tradition seit 1952. Prüf in 30 Sekunden, ob es passt.</p>
+  <p class="sub">⚙️ Sicherer, unbefristeter Job bei einem Familienbetrieb seit 1952 – faire Bezahlung, moderner Maschinenpark, echtes Team. 🚀 Prüf in 30 Sekunden, ob es passt.</p>
   <div class="trust">
     <span><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>In 60 Sek.</span>
     <span><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Ohne Anschreiben</span>
@@ -144,49 +144,41 @@ h1 .hl{color:var(--akz)}
   <div class="card">
     <div class="card__head">
       <div class="progress"><div class="progress__bar" id="bar"></div></div>
-      <div class="progress__label"><span id="stepLabel">Schritt 1 von 6</span><span>~60 Sek.</span></div>
+      <div class="progress__label"><span id="stepLabel">Schritt 1 von 5</span><span>~60 Sek.</span></div>
     </div>
     <form class="card__body" id="form" novalidate>
       <input class="hp" type="text" name="firma_website" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
       <!-- KO 1 -->
       <div class="fstep is-active" data-step="1">
-        <div class="q-nr">Voraussetzung 1 von 5</div>
+        <div class="q-nr">Voraussetzung 1 von 4</div>
         <div class="q">Erfahrung an CNC-Dreh- oder Mehrspindelautomaten – oder eine Ausbildung (z. B. Zerspanungsmechaniker)?</div>
         <p class="q-hint">Kurzdrehen, Einrichten, Rüsten – Hauptsache, du kennst die Maschinen.</p>
         <div class="yn" data-ko="erfahrung"></div>
       </div>
       <!-- KO 2 -->
       <div class="fstep" data-step="2">
-        <div class="q-nr">Voraussetzung 2 von 5</div>
+        <div class="q-nr">Voraussetzung 2 von 4</div>
         <div class="q">Bist du bereit, im Schichtbetrieb zu arbeiten?</div>
         <p class="q-hint">Unsere Fertigung läuft im Schichtbetrieb.</p>
         <div class="yn" data-ko="schicht"></div>
       </div>
       <!-- KO 3 -->
       <div class="fstep" data-step="3">
-        <div class="q-nr">Voraussetzung 3 von 5</div>
+        <div class="q-nr">Voraussetzung 3 von 4</div>
         <div class="q">Kannst du am Standort Oberndorf am Neckar arbeiten?</div>
         <p class="q-hint">Wohnhaft in der Region oder umzugsbereit.</p>
         <div class="yn" data-ko="standort"></div>
       </div>
       <!-- KO 4 -->
       <div class="fstep" data-step="4">
-        <div class="q-nr">Voraussetzung 4 von 5</div>
+        <div class="q-nr">Voraussetzung 4 von 4</div>
         <div class="q">Hast du eine gültige Arbeitserlaubnis für Deutschland?</div>
         <p class="q-hint">EU-Bürger oder gültiger Aufenthalts-/Arbeitstitel.</p>
         <div class="yn" data-ko="arbeitserlaubnis"></div>
       </div>
-      <!-- KO 5 -->
-      <div class="fstep" data-step="5">
-        <div class="q-nr">Voraussetzung 5 von 5</div>
-        <div class="q">Verfügst du über Deutsch-Grundkenntnisse?</div>
-        <p class="q-hint">Für technische Zeichnungen und die Arbeitssicherheit.</p>
-        <div class="yn" data-ko="deutsch"></div>
-      </div>
-
       <!-- Kontakt -->
-      <div class="fstep" data-step="6">
+      <div class="fstep" data-step="5">
         <div class="q-nr">Fast geschafft</div>
         <div class="q">Passt – wohin dürfen wir uns melden?</div>
         <p class="q-hint">Wir rufen dich persönlich an. Kein Anschreiben, kein Lebenslauf nötig.</p>
@@ -229,7 +221,7 @@ h1 .hl{color:var(--akz)}
   "use strict";
   var WEBHOOK_URL="https://api-v2.lead-table.com/api/webhook/generic/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWJsZUlEIjoiNmE5NmM0YzU4YTBkN2FmM2VhOWY1NTFhIiwiY3VzdG9tZXJJRCI6IjZhOTZjNDdmNDE0NmRmZmIxNmFhZDUwNCIsImFnZW5jeUlEIjoiNjliZDc3NzVlNGQxN2IzOGVkNjUzZDE2IiwiaWF0IjoxNzg4MjY1NjY5fQ.sfUUud6OH33amaGXlKXJDVo7RpuhRK0jvLIaNfTyhjg";
   var STELLE="Kurzdreher / Maschineneinrichter (m/w/d)";
-  var KO=["erfahrung","schicht","standort","arbeitserlaubnis","deutsch"]; // alle müssen "Ja" sein
+  var KO=["erfahrung","schicht","standort","arbeitserlaubnis"]; // alle müssen "Ja" sein
 
   var form=document.getElementById("form"), steps=[].slice.call(form.querySelectorAll(".fstep")), TOTAL=steps.length;
   var bar=document.getElementById("bar"), label=document.getElementById("stepLabel");
@@ -293,7 +285,7 @@ h1 .hl{color:var(--akz)}
     return { vorname:val("vorname"), nachname:val("nachname"), telefon:val("telefon"), email:val("email"),
       stelle:STELLE,
       ko_erfahrung:val("erfahrung"), ko_schicht:val("schicht"), ko_standort:val("standort"),
-      ko_arbeitserlaubnis:val("arbeitserlaubnis"), ko_deutsch:val("deutsch"),
+      ko_arbeitserlaubnis:val("arbeitserlaubnis"),
       alle_ko_erfuellt: failsKO()?"Nein":"Ja",
       datenschutz:"Ja (Einwilligung mit Absenden, Art. 6 Abs. 1 lit. a DSGVO)",
       quelle:"Jobbahn-Kampagne · Beck Präzisionstechnik", seite:location.href };

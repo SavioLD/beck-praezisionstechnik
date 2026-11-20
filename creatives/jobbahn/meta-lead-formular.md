@@ -2,9 +2,9 @@
 Stelle: Kurzdreher / Maschineneinrichter (m/w/d) · Seite/Absender: Jobbahn
 
 > Hinweis zur KO-Logik: Meta-Lead-Formulare sortieren nicht automatisch aus.
-> Die 5 Fragen unten liefern die Ja/Nein-Antworten – die eigentliche Absage/
+> Die 4 Fragen unten liefern die Ja/Nein-Antworten – die eigentliche Absage/
 > Qualifizierung macht ihr **downstream in Make/LeadTable** (nur Leads mit allen
-> 5 = „Ja" weiterleiten/annehmen, Rest = „nicht qualifiziert").
+> 4 = „Ja" weiterleiten/annehmen, Rest = „nicht qualifiziert").
 > Alternativ als Anzeigenziel die **Landingpage mit echter KO-Logik** nutzen:
 > https://saviold.github.io/beck-praezisionstechnik/jobbahn/
 
@@ -20,7 +20,7 @@ Beck – Kurzdreher/Maschineneinrichter – KO (Jobbahn)
 Kurzdreher / Maschineneinrichter (m/w/d) bei Beck
 
 **Beschreibung → Variante A (Absatz):**
-Unbefristet, Vollzeit, moderner Maschinenpark – bei Beck Präzisionstechnik in Oberndorf a. N., familiengeführt seit 1952. Beantworte kurz 5 Fragen. Ohne Anschreiben, ohne Lebenslauf – wir melden uns persönlich bei dir.
+⚙️ Werde Teil von Beck Präzisionstechnik – seit 1952 Spezialist für Präzisionsdrehteile in Oberndorf a. N. Dich erwartet ein sicherer, unbefristeter Job mit fairer Bezahlung und modernster Technik. 🚀 Beantworte nur 4 kurze Fragen – ohne Anschreiben, ohne Lebenslauf – und wir melden uns persönlich bei dir.
 
 **Beschreibung → Variante B (Liste):**
 - Unbefristet & in Vollzeit
@@ -47,8 +47,6 @@ Unbefristet, Vollzeit, moderner Maschinenpark – bei Beck Präzisionstechnik in
    • Ja  • Nein
 4. Gültige Arbeitserlaubnis für Deutschland?
    • Ja  • Nein
-5. Deutsch-Grundkenntnisse (für Zeichnungen & Sicherheit)?
-   • Ja  • Nein
 
 ## 4) Datenschutzrichtlinie
 **Link zur Datenschutzrichtlinie:** [eure Datenschutz-URL – z. B. https://laendle-digital.com/datenschutz/]
@@ -70,4 +68,4 @@ Stark! Wir haben deine Angaben erhalten und melden uns persönlich bei dir. Scha
 
 ## Optimierungen / Einstellungen
 - Lead-Weiterleitung: an Make/LeadTable (Webhook/Integration) anbinden.
-- Filter-Regel (Make/LeadTable): Lead nur annehmen/weiterleiten, wenn **alle 5 Fragen = „Ja"**. Sonst Status „nicht qualifiziert" (kein Weiterleiten an Beck).
+- Filter-Regel (Make/LeadTable): Lead nur annehmen/weiterleiten, wenn **alle 4 Fragen = „Ja"**. Sonst Status „nicht qualifiziert" (kein Weiterleiten an Beck).
